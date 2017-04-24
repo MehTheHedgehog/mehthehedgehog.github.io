@@ -1,0 +1,23 @@
+{{ partial "header.html" . }}
+
+<!-- Blog Post -->
+
+        <!-- Title -->
+        <h1>{{ .Title }}</h1>
+        <hr>
+        {{ partial "date.html" . }}
+        {{ partial "tags.html" . }}
+        <hr>
+
+         {{ .Content }}
+
+         <hr>
+        {{ partial "date.html" . }}
+        {{ partial "tags.html" . }}
+        </br>
+
+        {{ partial "pager.html" . }}
+        
+
+
+{{ partial "footer.html" . }}

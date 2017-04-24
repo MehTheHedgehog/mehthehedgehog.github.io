@@ -1,0 +1,12 @@
+baseURL = "http://mehthehedgehog.githu.io/"
+languageCode = "en-us"
+title = "MehTheHedgehog's Blog"
+theme = "hedgehog"
+publishDir = "docs"
+
+[Author]
+    name = "Artur Jaworski"
+    describtion = "Software developer from Poland."
+
+[Social]
+    facebookuid = "100000560180331"
