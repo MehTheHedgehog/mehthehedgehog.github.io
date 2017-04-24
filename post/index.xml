@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Posts on MehTheHedgehog&#39;s Blog</title>
-    <link>http://mehthehedgehog.githu.io/post/</link>
+    <link>http://mehthehedgehog.github.io/post/</link>
     <description>Recent content in Posts on MehTheHedgehog&#39;s Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Wed, 19 Apr 2017 22:16:59 +0200</lastBuildDate>
     
-	<atom:link href="http://mehthehedgehog.githu.io/post/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="http://mehthehedgehog.github.io/post/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>test</title>
-      <link>http://mehthehedgehog.githu.io/post/test/</link>
+      <link>http://mehthehedgehog.github.io/post/test/</link>
       <pubDate>Wed, 19 Apr 2017 22:16:59 +0200</pubDate>
       
-      <guid>http://mehthehedgehog.githu.io/post/test/</guid>
+      <guid>http://mehthehedgehog.github.io/post/test/</guid>
       <description>Here is my first test post :)</description>
     </item>
     
