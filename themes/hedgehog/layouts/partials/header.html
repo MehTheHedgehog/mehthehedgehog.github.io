@@ -13,7 +13,7 @@
     <title>{{ if not .IsHome }}{{ .Title }} | {{ end }}{{ .Site.Title }}</title>
 
     <!-- Bootstrap Core CSS -->
-    <link href="https://bootswatch.com/solar/bootstrap.min.css" rel="stylesheet">
+    <link href="{{ "/css/solar.bootstrap-4.0.0.min.css" | relURL }}" rel="stylesheet">
 
     <!-- Custom CSS -->
     <link href="{{ "/css/blog.css" | relURL }}" rel="stylesheet">

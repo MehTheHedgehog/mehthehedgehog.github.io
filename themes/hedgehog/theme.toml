@@ -3,19 +3,13 @@
 
 name = "Hedgehog"
 license = "MIT"
-licenselink = "https://github.com/yourname/yourtheme/blob/master/LICENSE.md"
-description = ""
-homepage = "http://siteforthistheme.com/"
+licenselink = "https://github.com/MehTheHedgehog/mehthehedgehog.github.io/blob/sources/README.md"
+description = "Programing blog under github.io"
+homepage = "https://github.com/MehTheHedgehog/mehthehedgehog.github.io"
 tags = []
 features = []
 min_version = "0.20"
 
 [author]
-  name = ""
-  homepage = ""
-
-# If porting an existing theme
-[original]
-  name = ""
-  homepage = ""
-  repo = ""
+  name = "MehTheHedgehog"
+  homepage = "https://github.com/MehTheHedgehog/mehthehedgehog.github.io"
