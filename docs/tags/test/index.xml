@@ -7,9 +7,7 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Wed, 19 Apr 2017 22:16:59 +0200</lastBuildDate>
-    
-	<atom:link href="http://mehthehedgehog.github.io/tags/test/index.xml" rel="self" type="application/rss+xml" />
-    
+    <atom:link href="http://mehthehedgehog.github.io/tags/test/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>test</title>
@@ -17,7 +15,8 @@
       <pubDate>Wed, 19 Apr 2017 22:16:59 +0200</pubDate>
       
       <guid>http://mehthehedgehog.github.io/post/test/</guid>
-      <description>Here is my first test post :)</description>
+      <description>&lt;p&gt;Here is my first test post :)&lt;/p&gt;
+</description>
     </item>
     
   </channel>
