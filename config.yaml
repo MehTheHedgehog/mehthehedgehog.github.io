@@ -36,7 +36,7 @@ params:
     - name: GitLab
       url: https://gitlab.com/MehTheHedgehog
 
-  brandIconFile: "resources/images/logo.png"
+  brandIconFile: "images/logo.png"
 
   abbrDateFmt: "Jan 2"
   dateFmt: "2006-01-02"
