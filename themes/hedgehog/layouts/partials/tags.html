@@ -1,8 +1,0 @@
-<div class="btn-group btn-group-xs" role="group" aria-label="tags">
-        <a class="btn btn-default" href="/tags/"><span class="glyphicon glyphicon-tag"></span>
-        {{if .Params.tags }}
-                {{ range .Params.tags }}
-                <a class="btn btn-default" href="{{ "/tags/" | relURL }}{{ . | urlize }}">{{ . }}</a>
-                {{ end }}
-        {{ end }}
-</div>
