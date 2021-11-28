@@ -3,16 +3,14 @@ title: "Example Post"
 date: 2021-11-28
 
 description: >-
-  Sample article showcasing basic Markdown syntax and formatting for HTML
-  elements.
-
+  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. At volutpat diam ut venenatis tellus.
 
 categories:
-  - Programing
+  - uncategorized
 series:
-  - P4 Programing language
+  - unseried
 tags:
-  - rust
+  - untagged
 
 # draft: true
 ---
