@@ -1,6 +1,6 @@
 ---
-title: "Example Post"
-date: 2021-11-28
+title: "{{ replace .Name "-" " " | title }}"
+date: {{ now.Format (default "2006-01-02 15:04:05" .Site.Params.dateFmt) }}
 
 description: >-
   Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. At volutpat diam ut venenatis tellus.
@@ -12,7 +12,7 @@ series:
 tags:
   - untagged
 
-# draft: true
+draft: true
 ---
 
 # Main Header
@@ -37,7 +37,7 @@ def function():
 
 Hugo ships with several [Built-in Shortcodes](https://gohugo.io/content-management/shortcodes/#use-hugos-built-in-shortcodes).
 
-They should be placed in `{{ here }}` to work.
+They should be placed in double `{}` to work.
 
 
    Type | Code
