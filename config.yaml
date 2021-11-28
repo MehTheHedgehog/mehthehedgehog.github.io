@@ -1,0 +1,45 @@
+# exampleSite/config.yaml
+baseURL: http://mehthehedgehog.github.io/ # Replace with your domain
+languageCode: en-us
+theme: smigle
+title: xymlds
+menu:
+  main:
+    - identifier: home
+      name: Home
+      url: /
+      weight: 1
+    - identifier: about
+      name: About
+      url: /about/
+      weight: 2
+    - identifier: posts
+      name: Posts
+      url: /posts/
+      weight: 3
+    - identifier: categories
+      name: Categories
+      url: /categories/
+      weight: 4
+    - identifier: tags
+      name: Tags
+      url: /tags/
+      weight: 5
+
+params:
+  author: "MehTheHedgehog"
+  subtitle: "Testing things"
+
+  social:
+    - name: GitHub
+      url: https://github.com/MehTheHedgehog
+    - name: GitLab
+      url: https://gitlab.com/MehTheHedgehog
+
+  brandIconFile: "images/logo.png"
+
+  abbrDateFmt: "Jan 2"
+  dateFmt: "2006-01-02"
+
+
+
