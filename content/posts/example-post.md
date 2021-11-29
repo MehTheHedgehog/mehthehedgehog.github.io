@@ -1,6 +1,6 @@
 ---
 title: "Example Post"
-date: 2021-11-29T12:27:43+01:00
+date: 2021-11-29T12:42:20+01:00
 author: [ "MehTheHedgehog" ]
 # weight: 1
 
@@ -9,17 +9,15 @@ description: >-
 
 categories:
   - uncategorized
-series:
-  - unseried
 tags:
   - untagged
 
 cover:
-    image: "https://64.media.tumblr.com/8975ba18926f6cf629aa06fbc229aca0/tumblr_paybm06Ez71vx2wxfo1_500.jpg" # image path/url
-    alt: "<alt text>" # alt text
-    caption: "<text>" # display caption under cover
+    image: "https://media.gettyimages.com/vectors/stock-market-related-vector-banner-design-concept-modern-line-style-vector-id1341158609?s=2048x2048" # image path/url
+    caption: "Caption of image" # display caption under cover
+    alt: "Alternative caption" # alt text
     relative: false # when using page bundles set this to true
-    hidden: false # only hide on current single page
+    hidden: true # only hide on current single page
 
 draft: false # Is it draft?
 showToc: true # Show Table of content

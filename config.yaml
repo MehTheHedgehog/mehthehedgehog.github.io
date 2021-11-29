@@ -19,8 +19,6 @@ params:
   description: "Testing things"
   keywords: [Blog, Portfolio, PaperMod]
   author: MehTheHedgehog
-  # author: ["Me", "You"] # multiple authors
-  # images: ["<link or path of image for opengraph, twitter-cards>"]
   DateFormat: "Monday, 02 Jan 06 15:04 MST"
   defaultTheme: auto # dark, light
   disableThemeToggle: false
@@ -60,7 +58,7 @@ params:
 
   # home-info mode
   homeInfoParams:
-    Title: "Hi there \U0001F44B"
+    Title: "Hi. I'm MehTheHedgehog."
     Content: Welcome to my blog
 
   socialIcons:
@@ -111,10 +109,6 @@ menu:
     - identifier: tags
       name: tags
       url: /tags/
-      weight: 30
-    - identifier: series
-      name: series
-      url: /series/
       weight: 20
 
 # Read: https://github.com/adityatelange/hugo-PaperMod/wiki/FAQs#using-hugos-syntax-highlighter-chroma

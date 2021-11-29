@@ -9,15 +9,13 @@ description: >-
 
 categories:
   - uncategorized
-series:
-  - unseried
 tags:
   - untagged
 
 cover:
-    image: "https://64.media.tumblr.com/8975ba18926f6cf629aa06fbc229aca0/tumblr_paybm06Ez71vx2wxfo1_500.jpg" # image path/url
-    alt: "<alt text>" # alt text
-    caption: "<text>" # display caption under cover
+    image: "< path / url >" # image path/url
+    caption: "Caption of image" # display caption under cover
+    alt: "Alternative caption" # alt text
     relative: false # when using page bundles set this to true
     hidden: false # only hide on current single page
 
