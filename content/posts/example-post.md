@@ -1,6 +1,8 @@
 ---
 title: "Example Post"
-date: 2021-11-28
+date: 2021-11-29T12:27:43+01:00
+author: [ "MehTheHedgehog" ]
+# weight: 1
 
 description: >-
   Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. At volutpat diam ut venenatis tellus.
@@ -12,7 +14,25 @@ series:
 tags:
   - untagged
 
-# draft: true
+cover:
+    image: "https://64.media.tumblr.com/8975ba18926f6cf629aa06fbc229aca0/tumblr_paybm06Ez71vx2wxfo1_500.jpg" # image path/url
+    alt: "<alt text>" # alt text
+    caption: "<text>" # display caption under cover
+    relative: false # when using page bundles set this to true
+    hidden: false # only hide on current single page
+
+draft: false # Is it draft?
+showToc: true # Show Table of content
+TocOpen: false
+hidemeta: false
+comments: false # Disable comments
+disableShare: false # Disable share buttons
+disableHLJS: false # Disable highlight.js
+hideSummary: false
+searchHidden: false
+ShowReadingTime: true
+ShowBreadCrumbs: true
+ShowPostNavLinks: true
 ---
 
 # Main Header
@@ -37,7 +57,7 @@ def function():
 
 Hugo ships with several [Built-in Shortcodes](https://gohugo.io/content-management/shortcodes/#use-hugos-built-in-shortcodes).
 
-They should be placed in `{{ here }}` to work.
+They should be placed in double `{}` to work.
 
 
    Type | Code
