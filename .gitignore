@@ -2,12 +2,17 @@
 # Generated files by hugo
 /public/
 /resources/_gen/
-.hugo_build.lock
+/assets/jsconfig.json
+hugo_stats.json
 
 # Executable may be added to repository
+hugo
 hugo.exe
 hugo.darwin
 hugo.linux
+
+# Temporary lock file while building
+/.hugo_build.lock
 
 ### Code ###
 .vscode/*
